@@ -1,0 +1,4 @@
+sub.exemple.com.br 192.168.0.1
+api.exemple.com.br 192.168.0.1
+exemple.com 192.168.0.100
+exemple.org 10.0.0.1
