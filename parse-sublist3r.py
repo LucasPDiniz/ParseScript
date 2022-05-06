@@ -3,6 +3,8 @@ import string
 import json
 
 #Sublist3r --> github.com/aboul3la/Sublist3r
+#python3 sublist3r.py -d exemple.com -o domains.txt
+
 dic_sublist3r = {}
 
 def parse():
