@@ -1,0 +1,4 @@
+Discovered open port 22/tcp on 37.59.174.225                                   
+Discovered open port 53/tcp on 37.59.174.225                                   
+Discovered open port 80/tcp on 37.59.174.225                                   
+Discovered open port 21/tcp on 37.59.174.225                                   

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Sun Oct  9 15:36:34 2022 as: nmap -sV -sS -Pn -p80,22,53,21,111 -oX nmap.xml businesscorp.com.br -->
+<nmaprun scanner="nmap" args="nmap -sV -sS -Pn -p80,22,53,21,111 -oX nmap.xml businesscorp.com.br" start="1665329794" startstr="Sun Oct  9 15:36:34 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="5" services="21-22,53,80,111"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1665329807" endtime="1665329816"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="37.59.174.225" addrtype="ipv4"/>
+<hostnames>
+<hostname name="businesscorp.com.br" type="user"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="37"/><service name="ftp" product="ProFTPD" version="1.3.4a" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.4a</cpe></service></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="37"/><service name="ssh" product="OpenSSH" version="6.0p1 Debian 4+deb7u2" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.0p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="37"/><service name="domain" product="ISC BIND" version="9.8.4-rpz2+rl005.12-P1" method="probed" conf="10"><cpe>cpe:/a:isc:bind:9.8.4-rpz2%2Brl005.12-p1</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="37"/><service name="http" product="Apache httpd" version="2.2.22" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.22</cpe></service></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="37"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/></port>
+</ports>
+<times srtt="245614" rttvar="84580" to="583934"/>
+</host>
+<runstats><finished time="1665329816" timestr="Sun Oct  9 15:36:56 2022" summary="Nmap done at Sun Oct  9 15:36:56 2022; 1 IP address (1 host up) scanned in 22.67 seconds" elapsed="22.67" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
