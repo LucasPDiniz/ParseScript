@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<!DOCTYPE niktoscan SYSTEM "/var/lib/nikto/docs/nikto.dtd">
+<niktoscan>
+<niktoscan hoststest="0" options="-host http://businesscorp.com.br -output nikto.xml" version="2.1.6" scanstart="Mon Oct 17 03:18:14 2022" scanend="Thu Jan  1 00:00:00 1970" scanelapsed=" seconds" nxmlversion="1.2">
+
+<scandetails targetip="37.59.174.225" targethostname="businesscorp.com.br" targetport="80" targetbanner="Apache/2.2.22 (Debian)" starttime="2022-10-17 03:18:15" sitename="http://businesscorp.com.br:80/" siteip="http://37.59.174.225:80/" hostheader="businesscorp.com.br" errors="0" checks="6897">
+
+
+<item id="999984" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Server may leak inodes via ETags, header found with file /, inode: 132195, size: 7094, mtime: Wed Sep 25 17:05:45 2019]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+</item>
+
+<item id="999957" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[The anti-clickjacking X-Frame-Options header is not present.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+</item>
+
+<item id="999102" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+</item>
+
+<item id="999103" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+</item>
+
+<item id="750500" osvdbid="3268" osvdblink="http://osvdb.org/3268" method="GET">
+<description><![CDATA[/_restrito/: Directory indexing found.]]></description>
+<uri><![CDATA[/_restrito/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_restrito/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_restrito/]]></iplink>
+</item>
+
+<item id="999997" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Entry '/_restrito/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[/_restrito/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_restrito/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_restrito/]]></iplink>
+</item>
+
+<item id="750500" osvdbid="3268" osvdblink="http://osvdb.org/3268" method="GET">
+<description><![CDATA[/_docs/: Directory indexing found.]]></description>
+<uri><![CDATA[/_docs/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_docs/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_docs/]]></iplink>
+</item>
+
+<item id="999997" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Entry '/_docs/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[/_docs/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_docs/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_docs/]]></iplink>
+</item>
+
+<item id="750500" osvdbid="3268" osvdblink="http://osvdb.org/3268" method="GET">
+<description><![CDATA[/admin/: Directory indexing found.]]></description>
+<uri><![CDATA[/admin/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/admin/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/admin/]]></iplink>
+</item>
+
+<item id="999997" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Entry '/admin/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[/admin/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/admin/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/admin/]]></iplink>
+</item>
+
+<item id="750500" osvdbid="3268" osvdblink="http://osvdb.org/3268" method="GET">
+<description><![CDATA[/bkp/: Directory indexing found.]]></description>
+<uri><![CDATA[/bkp/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/bkp/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/bkp/]]></iplink>
+</item>
+
+<item id="999997" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Entry '/bkp/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[/bkp/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/bkp/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/bkp/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA["robots.txt" contains 5 entries which should be manually viewed.]]></description>
+<uri><![CDATA[/robots.txt]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/robots.txt]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/robots.txt]]></iplink>
+</item>
+
+<item id="600050" osvdbid="0" osvdblink="http://osvdb.org/0" method="HEAD">
+<description><![CDATA[Apache/2.2.22 appears to be outdated (current is at least Apache/2.4.37). Apache 2.2.34 is the EOL for the 2.x branch.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+</item>
+
+<item id="999100" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Uncommon header 'tcn' found, with contents: list]]></description>
+<uri><![CDATA[/index]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/index]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/index]]></iplink>
+</item>
+
+<item id="999965" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Apache mod_negotiation is enabled with MultiViews, which allows attackers to easily brute force file names. See http://www.wisec.it/sectou.php?id=4698ebdc59d15. The following alternatives for 'index' were found: index.html]]></description>
+<uri><![CDATA[/index]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/index]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/index]]></iplink>
+</item>
+
+<item id="999990" osvdbid="0" osvdblink="http://osvdb.org/0" method="OPTIONS">
+<description><![CDATA[Allowed HTTP Methods: GET, HEAD, POST, OPTIONS ]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+</item>
+
+<statistics elapsed="1665977023" itemsfound="" itemstested="6897" endtime="2022-10-17 03:23:43" />
+</scandetails>
+
+</niktoscan>
+
+
+</niktoscan>
